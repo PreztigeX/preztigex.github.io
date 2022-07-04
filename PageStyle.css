@@ -1,0 +1,51 @@
+body {
+     background-image: url(DiamondBG.png);
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+ .header {
+     padding: 1px;
+     text-align: center;
+     background: #6eb6ff;
+     border-style: none none solid none;
+     border-color: #406e9c;
+     border-width: 3px;
+	  margin-bottom:10px;
+     color: white;
+     font-size: 30px;
+}
+
+.passiveColumn {
+  float: left;
+  width: 35%;
+}
+
+.passiveInfo {
+  float: left;
+  width: 65%;
+}
+
+.btn-group {
+	background-color: #444444aa;
+	margin-left:5px;
+	border: 2px solid black;
+	padding-top:6px;
+	padding-bottom:3px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height:400px;
+}
+
+.selectionColumn {
+  float:left;
+  width:50%;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
